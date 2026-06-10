@@ -1,12 +1,12 @@
 {
-  "name": "scanner",
+  "name": "ss",
   "version": "1.0.0",
   "private": true,
-  "main": "scanner.js",
-  "bin": "scanner",
+  "main": "ss.js",
+  "bin": "ss",
   "scripts": {
-    "start": "node scanner.js",
-    "build": "pkg scanner.js --targets node18-linux-x64 --output scanner"
+    "start": "node ss.js",
+    "build": "pkg ss.js --targets node18-linux-x64 --output ss"
   },
   "pkg": {
     "assets": [
