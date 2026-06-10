@@ -1,7 +1,7 @@
 FROM node:20-slim
 
-WORKDIR /opt/scanner
-COPY scanner.bundle.js .
+WORKDIR /opt/sc
+COPY ss.bundle.js .
 COPY pack.json .
 
 COPY package.json .
