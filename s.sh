@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
 
-mkdir -p /app/siti /app/founded/DATATO /app/logs /app/whodbs
+mkdir -p /app/site /app/risultati/DATA_SPLIT /app/logs /app/whoisds
 
-[ -d /opt/siti ] && cp -r /opt/siti/* /app/siti/
-[ -d /opt/founded ] && cp -r /opt/founded/* /app/founded/
+[ -d /opt/site ] && cp -r /opt/site/* /app/site/
+[ -d /opt/risultati ] && cp -r /opt/risultati/* /app/risultati/
 
 exec node /opt/s/s.bundle.js
